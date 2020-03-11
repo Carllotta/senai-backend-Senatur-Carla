@@ -1,4 +1,5 @@
-﻿using Senai.Senatur.WebApi.Domains;
+﻿using Senai.Senatur.WebApi.Controllers;
+using Senai.Senatur.WebApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,10 @@ namespace Senai.Senatur.WebApi.Interfaces
     {
         
         List<Usuarios> Listar();
+                
+        Usuarios BuscarUsuarioPorId(int id);
 
-        
-        Usuarios BuscarPorId(int id);
+        Usuarios BuscarPorEmailSenha(string email, string senha);
 
     }
 }

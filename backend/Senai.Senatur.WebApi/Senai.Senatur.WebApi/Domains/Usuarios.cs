@@ -11,5 +11,6 @@ namespace Senai.Senatur.WebApi.Domains
         public int? FkTipoUsuario { get; set; }
 
         public TiposUsuarios FkTipoUsuarioNavigation { get; set; }
+        public object IdTipoUsuario { get; internal set; }
     }
 }
