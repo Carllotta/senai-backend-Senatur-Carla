@@ -19,7 +19,7 @@ namespace Senai.Senatur.WebApi.Controllers
     [ApiController]
     public class TiposUsuariosController : ControllerBase
     {
-        private ITiposUsuariosRepository _  tiposUsuariosRepository;
+        private ITiposUsuariosRepository _tiposUsuariosRepository;
 
         public TiposUsuariosController()
         {
