@@ -21,5 +21,9 @@ namespace Senai.Senatur.WebApi.Interfaces
 
         List<Pacotes> ListarAtivos(bool ativo);
 
+        List<Pacotes> ListarPorCidade(string cidade);
+
+        //List<Pacotes> ListaOrdenada(string ordenacao);
+
     }
 }

@@ -59,23 +59,16 @@ namespace Senai.Senatur.WebApi.Controllers
                  return StatusCode(204);
         }
 
-        [HttpGet()]
-        public IActionResult GetPacotes()
-        {
-            return Ok(_pacotesRepository.Listar());
-        }
-
-        
-        [HttpGet("{id}")]
-        public IActionResult Get (int id)
-        {
-            return Ok(_pacotesRepository.BuscarPacotePorId(id));
-        }
-
-        [HttpGet("{ativo}")]
+        [HttpGet("buscarativos/{ativo}")]
         public IActionResult GetAtivos(bool ativo)
         {
             return Ok(_pacotesRepository.ListarAtivos(ativo));
+        }
+
+        [HttpGet("buscarcidade/{cidade}")]
+        public IActionResult GetPorCidade(string cidade)
+        {
+            return Ok(_pacotesRepository.ListarPorCidade(cidade));
         }
 
     }

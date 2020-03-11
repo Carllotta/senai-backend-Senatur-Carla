@@ -19,12 +19,35 @@ namespace Senai.Senatur.WebApi.Controllers
     [ApiController]
     public class TiposUsuariosController : ControllerBase
     {
-        private ITiposUsuariosRepository _  tiposUsuariosRepository;
+        private ITiposUsuariosRepository _tiposUsuariosRepository;
 
         public TiposUsuariosController()
         {
             _tiposUsuariosRepository = new TiposUsuariosRepository();
         }
-        
+        [HttpGet]
+        public IActionResult Get()
+        {
+            // Retora a resposta da requisição fazendo a chamada para o método
+            return Ok(_tiposUsuariosRepository.ListarTipos());
+        }
+
+        /// <summary>
+        /// Busca um tipo de usuário através do ID
+        /// </summary>
+        /// <param name="id">ID do tipo de usuário que será buscado</param>
+        /// <returns>Um tipo de usuário buscado e um status code 200 - Ok</returns>
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            // Retora a resposta da requisição fazendo a chamada para o método
+            return Ok(_tiposUsuariosRepository.BuscarPorId(id));
+        }
+
+        /// <summary>
+        /// Cadastra um novo tipo de usuário
+        /// </summary>
+        /// <param name="novoTipoUsuario">Objeto com as informações</param>
+        /// <returns>Um status code 201 - Created</returns>
     }
 }

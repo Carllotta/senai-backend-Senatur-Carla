@@ -62,5 +62,14 @@ namespace Senai.Senatur.WebApi.Repositories
             return ctx.Pacotes.ToList().FindAll(p => p.Ativo == ativo);
         }
 
+        public List<Pacotes> ListarPorCidade(string cidade)
+        {
+            return ctx.Pacotes.ToList().FindAll(c => c.NomeCidade == cidade);
+        }
+
+        //public List<Pacotes> ListaOrdenada(string ordenacao)
+        //{
+        //    return  ctx.Pacotes.ToList().OrderBy(p => p.Valor );
+        //}
     }
 }

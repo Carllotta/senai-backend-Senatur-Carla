@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Senai.Senatur.WebApi.Repositories
 {
-    public class TiposUsuariosRepository : ITiposUsuariossRepository
+    public class TiposUsuariosRepository : ITiposUsuariosRepository
     {
         SenaturContext ctx = new SenaturContext();
 
