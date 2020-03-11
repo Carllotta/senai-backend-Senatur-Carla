@@ -36,7 +36,7 @@ namespace Senai.Senatur.WebApi.Controllers
               {
                 new Claim(JwtRegisteredClaimNames.Email, usuario.Email),
                 new Claim(JwtRegisteredClaimNames.Jti, usuario.IdUsuario.ToString()),
-                new Claim(ClaimTypes.Role, usuario.IdTipoUsuario.ToString())
+                new Claim(ClaimTypes.Role, usuario.FkTipoUsuario.ToString())
             };
 
 

@@ -12380,31 +12380,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\44994599823\\.nuget\\packages\\": {},
+    "C:\\Users\\46504386838\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\46504386838\\Desktop\\Projeto-Senatur-Carla\\backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
       "projectName": "Senai.Senatur.WebApi",
       "projectPath": "C:\\Users\\46504386838\\Desktop\\Projeto-Senatur-Carla\\backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
       "packagesPath": "C:\\Users\\46504386838\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\46504386838\\Desktop\\Projeto-Senatur-Carla\\backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\44994599823\\Desktop\\senai-backend-Senatur-Carla\\backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
-      "projectName": "Senai.Senatur.WebApi",
-      "projectPath": "C:\\Users\\44994599823\\Desktop\\senai-backend-Senatur-Carla\\backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi.csproj",
-      "packagesPath": "C:\\Users\\44994599823\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\44994599823\\Desktop\\senai-backend-Senatur-Carla\\backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\obj\\",
->>>>>>> 1fa3f478253d7de6f5ba404015a99440a8a24634
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\44994599823\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\46504386838\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12472,5 +12464,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\46504386838\\Desktop\\Projeto-Senatur-Carla\\backend\\Senai.Senatur.WebApi\\Senai.Senatur.WebApi\\obj\\Senai.Senatur.WebApi.csproj.nuget.cache: Valor não pode ser nulo.\r\nNome do parâmetro: value"
+    }
+  ]
 }

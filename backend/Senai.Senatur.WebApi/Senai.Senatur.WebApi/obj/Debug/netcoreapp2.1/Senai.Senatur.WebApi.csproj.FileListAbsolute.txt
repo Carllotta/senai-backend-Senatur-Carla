@@ -59,3 +59,5 @@ C:\Users\44994599823\Desktop\senai-backend-Senatur-Carla\backend\Senai.Senatur.W
 C:\Users\44994599823\Desktop\senai-backend-Senatur-Carla\backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml
 C:\Users\44994599823\Desktop\senai-backend-Senatur-Carla\backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml
 >>>>>>> 1fa3f478253d7de6f5ba404015a99440a8a24634
+C:\Users\46504386838\Desktop\Projeto-Senatur-Carla\backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\bin\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml
+C:\Users\46504386838\Desktop\Projeto-Senatur-Carla\backend\Senai.Senatur.WebApi\Senai.Senatur.WebApi\obj\Debug\netcoreapp2.1\Senai.Senatur.WebApi.xml

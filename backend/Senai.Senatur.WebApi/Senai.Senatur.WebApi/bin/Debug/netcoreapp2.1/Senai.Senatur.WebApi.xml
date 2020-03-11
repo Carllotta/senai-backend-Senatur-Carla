@@ -4,5 +4,12 @@
         <name>Senai.Senatur.WebApi</name>
     </assembly>
     <members>
+        <member name="M:Senai.Senatur.WebApi.Controllers.TiposUsuariosController.GetById(System.Int32)">
+            <summary>
+            Busca um tipo de usuário através do ID
+            </summary>
+            <param name="id">ID do tipo de usuário que será buscado</param>
+            <returns>Um tipo de usuário buscado e um status code 200 - Ok</returns>
+        </member>
     </members>
 </doc>
