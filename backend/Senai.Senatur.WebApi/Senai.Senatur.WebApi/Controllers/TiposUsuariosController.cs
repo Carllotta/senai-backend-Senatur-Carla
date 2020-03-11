@@ -43,11 +43,5 @@ namespace Senai.Senatur.WebApi.Controllers
             // Retora a resposta da requisição fazendo a chamada para o método
             return Ok(_tiposUsuariosRepository.BuscarPorId(id));
         }
-
-        /// <summary>
-        /// Cadastra um novo tipo de usuário
-        /// </summary>
-        /// <param name="novoTipoUsuario">Objeto com as informações</param>
-        /// <returns>Um status code 201 - Created</returns>
     }
 }

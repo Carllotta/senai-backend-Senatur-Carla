@@ -58,9 +58,6 @@ namespace Senai.Senatur.WebApi.Controllers
                 token = new JwtSecurityTokenHandler().WriteToken(token)
             });
         }
-    }
-
-
-        
+    }        
 
     }

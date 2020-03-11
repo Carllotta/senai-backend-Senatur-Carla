@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Senai.Senatur.WebApi.Domains;
 using Senai.Senatur.WebApi.Interfaces;
 using Senai.Senatur.WebApi.Repositories;
@@ -24,6 +25,7 @@ namespace Senai.Senatur.WebApi.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "1 , 2")]
         public IActionResult Get()
         {
             return Ok(_pacotesRepository.Listar());
@@ -52,6 +54,7 @@ namespace Senai.Senatur.WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "1")]
         public IActionResult Delete(int id)
         {
             _pacotesRepository.DeletarPacote(id);
