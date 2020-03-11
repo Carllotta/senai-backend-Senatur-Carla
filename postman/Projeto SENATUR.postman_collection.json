@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "7cde200e-5727-48c9-a16d-cdc359a17c05",
+		"name": "Projeto SENATUR",
+		"description": "Projeto para aprendizagem realizado em dupla, proposto em sala ded aula.\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"item": [],
+			"description": "Pasta com requisições exclusivas de um administrador",
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Usuários",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Pacotes",
+			"item": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
